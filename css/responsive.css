@@ -1,0 +1,386 @@
+/* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu-container,
+    .setup-container,
+    .multiplayer-setup-container,
+    .toss-container,
+    .result-container,
+    .leaderboard-container,
+    .waiting-container {
+        padding: 30px 15px;
+    }
+
+    .scoreboard {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .match-info {
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    .numbers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .multiplayer-options {
+        grid-template-columns: 1fr;
+    }
+
+    .divider {
+        writing-mode: horizontal-tb;
+        height: auto;
+        padding: 10px 0;
+    }
+}
+
+/* Mobile Devices (480px - 767px) */
+@media (max-width: 767px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .menu-container,
+    .setup-container,
+    .multiplayer-setup-container,
+    .toss-container,
+    .result-container,
+    .leaderboard-container,
+    .waiting-container {
+        padding: 20px 15px;
+        border-radius: 12px;
+    }
+
+    .menu-container h2,
+    .setup-container h2,
+    .multiplayer-setup-container h2,
+    .result-container h2,
+    .leaderboard-container h2 {
+        font-size: 24px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .btn-lg {
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .button-group .btn {
+        width: 100%;
+    }
+
+    .numbers-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .number-btn {
+        font-size: 20px;
+    }
+
+    .scoreboard {
+        grid-template-columns: 1fr;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .player-score {
+        font-size: 28px;
+    }
+
+    .player-name {
+        font-size: 12px;
+    }
+
+    .toss-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .result-status {
+        font-size: 36px;
+    }
+
+    .leaderboard-item {
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+
+    .leaderboard-info {
+        margin-left: 10px;
+        flex: 1;
+    }
+
+    .game-code-display strong {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .sound-toggle {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .plays-list {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 8px;
+    }
+
+    .play-item {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Small Mobile Devices (320px - 479px) */
+@media (max-width: 479px) {
+    .header {
+        padding: 15px 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .theme-toggle {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+
+    .menu-container,
+    .setup-container,
+    .multiplayer-setup-container,
+    .toss-container,
+    .result-container,
+    .leaderboard-container,
+    .waiting-container {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .menu-container h2,
+    .setup-container h2,
+    .multiplayer-setup-container h2,
+    .result-container h2,
+    .leaderboard-container h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .subtitle {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .btn-lg {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+
+    .btn-icon {
+        font-size: 20px;
+    }
+
+    .numbers-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .number-btn {
+        font-size: 18px;
+    }
+
+    .scoreboard {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .player-score {
+        font-size: 24px;
+    }
+
+    .player-wickets {
+        font-size: 11px;
+    }
+
+    .game-status {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .input-group {
+        margin: 15px 0;
+    }
+
+    .input-group input,
+    .input-group select {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .toss-buttons {
+        gap: 10px;
+    }
+
+    .option-card {
+        padding: 15px;
+    }
+
+    .result-status {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .result-summary,
+    .match-stats {
+        padding: 15px;
+    }
+
+    .summary-item {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    .stat-row {
+        font-size: 13px;
+    }
+
+    .leaderboard-item {
+        padding: 10px;
+    }
+
+    .leaderboard-rank {
+        width: 35px;
+        font-size: 14px;
+    }
+
+    .leaderboard-value {
+        font-size: 16px;
+    }
+
+    .leaderboard-name {
+        font-size: 14px;
+    }
+
+    .leaderboard-stats {
+        font-size: 11px;
+    }
+
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+    .game-code-display {
+        padding: 15px;
+    }
+
+    .game-code-display strong {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .spinner {
+        width: 35px;
+        height: 35px;
+        border-width: 3px;
+    }
+
+    .sound-toggle {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .plays-list {
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        gap: 6px;
+    }
+
+    .play-item {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+
+/* Landscape Mode */
+@media (max-height: 500px) and (orientation: landscape) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .menu-container,
+    .setup-container,
+    .multiplayer-setup-container,
+    .toss-container,
+    .result-container,
+    .leaderboard-container,
+    .waiting-container {
+        padding: 15px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .btn-lg {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .numbers-grid {
+        gap: 10px;
+    }
+
+    .scoreboard {
+        padding: 10px;
+    }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode for Tablets and above */
+@media (min-width: 768px) {
+    body.dark-mode {
+        --text-color: #f5f5f5;
+        --bg-color: #0d0d0d;
+        --card-bg: #1a1a1a;
+        --border-color: #333;
+    }
+}
