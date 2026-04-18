@@ -1,4 +1,3 @@
-```markdown
 # 🏏 Hand Cricket - Online Multiplayer Game
 
 A fully responsive, feature-rich **Hand Cricket game** built with vanilla **HTML5**, **CSS3**, and **JavaScript**. Play against AI or with friends on the same device!
